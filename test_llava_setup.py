@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Test script to verify LLaVA-1.5(7B) setup and basic functionality.
-Run this before using add_model_responses.py to ensure everything works.
+Run this before using add_llava_responses.py to ensure everything works.
 """
 
 import sys
@@ -112,7 +112,7 @@ def main():
     
     print("\n" + "=" * 50)
     print("✓ All tests passed! LLaVA is ready to use.")
-    print("You can now run: python add_model_responses.py")
+    print("You can now run: python add_llava_responses.py")
     
     return True
 
